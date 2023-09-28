@@ -3,12 +3,7 @@
 ::after {
     box-sizing: border-box;
 }
-:root {
-    // --text-color: #1a162e;
-    --text-color: #1a162e;
-    --icon-color: brightness(0) saturate(100%) invert(9%) sepia(11%)
-        saturate(3116%) hue-rotate(210deg) brightness(90%) contrast(97%);
-}
+    
 html {
     font-size: 62.5%;
 }
@@ -16,6 +11,7 @@ body {
     font-size: 1.6rem;
     font-family: Gordita, sans-serif;
     color: var(--text-color);
+    background: var(--body--bg);
 }
 
 a {
